@@ -1,0 +1,9 @@
+{
+    "shortcut-name": {
+        "host": "https://name.atlassian.net",
+        "auth": {
+            "username": "",
+            "password": ""
+        }
+    }
+}

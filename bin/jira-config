@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+const meow = require("meow");
+const showJiraHosts = require('../lib/showJiraHosts');
+const changeJiraCLIConfig = require('../lib/changeJiraCLIConfig');
+
+const cli = meow(
+  `
+	Usage
+    $ jira-config <host>
+    
+	Examples
+	  $ jira-config bjerk
+`
+);
+
+(async () => {
+  if(!cli.input[0]) {
+    await showJiraHosts();
+  } else {
+    await changeJiraCLIConfig(cli.input[0]);
+  }
+})()
