@@ -20,6 +20,6 @@
   "dependencies": {
     "chalk": "^2.4.2",
     "cli-table3": "^0.5.1",
-    "meow": "^5.0.0"
+    "meow": "^7.0.0"
   }
 }
