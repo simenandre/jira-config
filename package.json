@@ -19,7 +19,7 @@
   "homepage": "https://github.com/cobraz/jira-config#readme",
   "dependencies": {
     "chalk": "^4.1.0",
-    "cli-table3": "^0.5.1",
+    "cli-table3": "^0.6.0",
     "meow": "^7.0.1"
   }
 }
