@@ -2,21 +2,18 @@
   "name": "jira-config",
   "version": "1.0.0",
   "description": "Companion application for JIRA CLI (adds multiple accounts)",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "bin": "./bin/jira-config",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cobraz/jira-config.git"
-  },
-  "author": "cobraz",
-  "license": "MIT",
+  "homepage": "https://github.com/cobraz/jira-config#readme",
   "bugs": {
     "url": "https://github.com/cobraz/jira-config/issues"
   },
-  "homepage": "https://github.com/cobraz/jira-config#readme",
+  "repository": "github:simenandre/jira-config",
+  "license": "MIT",
+  "author": "cobraz",
+  "main": "index.js",
+  "bin": "./bin/jira-config",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "chalk": "^4.1.0",
     "cli-table3": "^0.6.0",
